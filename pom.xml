@@ -16,16 +16,16 @@
     </repositories>
 
     <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>com.github.s-mags</groupId>-->
-<!--            <artifactId>SoftwareEngineeringAssignment1</artifactId>-->
-<!--            <version>master-SNAPSHOT</version>-->
-<!--        </dependency>-->
         <dependency>
-            <groupId>com.github.jitpack</groupId>
-            <artifactId>android-example</artifactId>
-            <version>1.0.3</version>
+            <groupId>com.github.s-mags</groupId>
+            <artifactId>SoftwareEngineeringAssignment1</artifactId>
+            <version>master-SNAPSHOT</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.github.jitpack</groupId>-->
+<!--            <artifactId>android-example</artifactId>-->
+<!--            <version>1.0.3</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
