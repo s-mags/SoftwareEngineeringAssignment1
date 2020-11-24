@@ -12,4 +12,11 @@ public class Module {
         associatedModules = modules;
     }
 
+    public String getModuleName(){return moduleName;}
+    public String getModuleID(){return moduleID;}
+    public String[] getAssociatedCourses(){return associatedCourses;}
+    public String[] getAssociatedModules(){return associatedModules;}
+
+    public void setModuleName(String name){moduleName = name;}
+    public void setModuleID(String iD){moduleID = iD;}
 }

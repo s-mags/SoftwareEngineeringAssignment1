@@ -1,5 +1,6 @@
 import org.junit.Test;
 import core.Student;
+import core.Module;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -32,6 +33,23 @@ public class TestClass {
         terry.setAge(newAge);
 
         assertEquals(terry.getAge(), newAge);
+
+    }
+
+    @Test
+    public void testSetModuleName(){
+        String[] courses = {"Science", "Mathematics"};
+        String[] modules = {"M02", "TH01", "SE01"};
+        String moduleName = "Computer Science";
+        String moduleId = "M01";
+
+        Module computerScience = new Module(moduleName, moduleId, courses, modules);
+        assertTrue(computerScience.getModuleName().equals(moduleName));
+
+        String newName = "Information Technology";
+        computerScience.setModuleName(newName);
+
+        assertEquals(computerScience.getModuleName(), newName);
 
     }
 }
